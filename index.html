@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JSON File Handler</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="xd">Click Me</button>
-    <div id="message" style="display:none; margin-top: 20px;">Hello, this is your message!</div>
-
+    <h1>JSON File Handler</h1>
+    <input type="file" id="fileInput" accept=".json">
+    <div id="jsonDisplay"></div>
+    <button id="addButton">Add Item</button>
+    <button id="downloadButton">Download JSON</button>
+    <h2>Updated JSON:</h2>
+    <textarea id="jsonOutput" readonly></textarea>
     <script src="script.js"></script>
 </body>
 </html>
